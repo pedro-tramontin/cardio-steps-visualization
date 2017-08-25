@@ -1,0 +1,70 @@
+{
+  "buildFiles": [
+    "/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Android.mk",
+    "/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Application.mk"
+  ],
+  "cleanCommands": [
+    "/opt/android-sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "native-lib-release-x86": {
+      "buildCommand": "/opt/android-sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/lib /home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj/local/x86/libnative-lib.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/card.io-dmz/dmz_all.cpp",
+          "flags": "\"-gcc-toolchain\" \"/opt/android-sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/card.io-dmz\" \"-I/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/card.io-dmz/cv\" \"-I/opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include\" \"-I/opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/opt/android-sdk/ndk-bundle/sources/android/cpufeatures\" \"-I/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp\" \"-O3\" \"-UNDEBUG\" \"-O0\" \"-g\" \"-ggdb\" \"-DCOMPILE_DMZ\" \"-DANDROID_DMZ\u003d1\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-DSCAN_EXPIRY\u003d1\" \"--sysroot\" \"/opt/android-sdk/ndk-bundle/sysroot\" \"-isystem\" \"/opt/android-sdk/ndk-bundle/sysroot/usr/include/i686-linux-android\""
+        },
+        {
+          "src": "/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/native-lib.cpp",
+          "flags": "\"-gcc-toolchain\" \"/opt/android-sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/card.io-dmz\" \"-I/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/card.io-dmz/cv\" \"-I/opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include\" \"-I/opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/opt/android-sdk/ndk-bundle/sources/android/cpufeatures\" \"-I/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp\" \"-O3\" \"-UNDEBUG\" \"-O0\" \"-g\" \"-ggdb\" \"-DCOMPILE_DMZ\" \"-DANDROID_DMZ\u003d1\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-DSCAN_EXPIRY\u003d1\" \"--sysroot\" \"/opt/android-sdk/ndk-bundle/sysroot\" \"-isystem\" \"/opt/android-sdk/ndk-bundle/sysroot/usr/include/i686-linux-android\""
+        },
+        {
+          "src": "/opt/android-sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+          "flags": "\"-gcc-toolchain\" \"/opt/android-sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/opt/android-sdk/ndk-bundle/sources/android/cpufeatures\" \"-O3\" \"-UNDEBUG\" \"-O0\" \"-g\" \"-ggdb\" \"-DCOMPILE_DMZ\" \"-DANDROID\" \"-Wall\" \"-Wextra\" \"-Werror\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"/opt/android-sdk/ndk-bundle/sysroot\" \"-isystem\" \"/opt/android-sdk/ndk-bundle/sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj/local/x86/libnative-lib.so"
+    },
+    "native-lib_tegra2-release-x86": {
+      "buildCommand": "/opt/android-sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/lib /home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj/local/x86/libnative-lib_tegra2.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "native-lib_tegra2",
+      "files": [
+        {
+          "src": "/opt/android-sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+          "flags": "\"-gcc-toolchain\" \"/opt/android-sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/opt/android-sdk/ndk-bundle/sources/android/cpufeatures\" \"-O3\" \"-UNDEBUG\" \"-O0\" \"-g\" \"-ggdb\" \"-DCOMPILE_DMZ\" \"-DANDROID\" \"-Wall\" \"-Wextra\" \"-Werror\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"/opt/android-sdk/ndk-bundle/sysroot\" \"-isystem\" \"/opt/android-sdk/ndk-bundle/sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj/local/x86/libnative-lib_tegra2.so"
+    },
+    "cpufeatures-release-x86": {
+      "buildCommand": "/opt/android-sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/src/main/cpp/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/lib /home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj/local/x86/libcpufeatures.a",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "cpufeatures",
+      "files": [
+        {
+          "src": "/opt/android-sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+          "flags": "\"-gcc-toolchain\" \"/opt/android-sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/opt/android-sdk/ndk-bundle/sources/android/cpufeatures\" \"-O3\" \"-UNDEBUG\" \"-O0\" \"-g\" \"-ggdb\" \"-DCOMPILE_DMZ\" \"-DANDROID\" \"-Wall\" \"-Wextra\" \"-Werror\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"/opt/android-sdk/ndk-bundle/sysroot\" \"-isystem\" \"/opt/android-sdk/ndk-bundle/sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "/home/ptramontin/workspace/cardio-steps-visualization/app/build/intermediates/ndkBuild/release/obj/local/x86/libcpufeatures.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "/opt/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/opt/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

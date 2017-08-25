@@ -1,0 +1,3 @@
+/home/ptramontin/workspace/DetectCardNumber/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/home/ptramontin/workspace/DetectCardNumber/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/home/ptramontin/workspace/DetectCardNumber/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/native-lib.dir
